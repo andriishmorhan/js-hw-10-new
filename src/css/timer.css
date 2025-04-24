@@ -1,10 +1,17 @@
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
 #datetime-picker {
   padding: 10px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-right: 10px;
-  width: 140px;
+  width: 200px;
 }
 
 button[data-start] {
